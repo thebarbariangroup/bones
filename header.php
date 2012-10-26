@@ -40,22 +40,27 @@
 			
 				<div id="inner-header" class="wrap clearfix">
 					
-					<div class="social social-left">
-						<a href="#"><img src="<?php echo get_template_directory_uri(); ?>/library/images/i_twitter.png" /></a>
-						<a href="#"><img src="<?php echo get_template_directory_uri(); ?>/library/images/i_facebook.png" /></a>
+					<div class="banner">
+
+						<div class="social social-left">
+							<a href="#"><img src="<?php echo get_template_directory_uri(); ?>/library/images/i_twitter.png" /></a>
+							<a href="#"><img src="<?php echo get_template_directory_uri(); ?>/library/images/i_facebook.png" /></a>
+						</div>
+
+						<img src="<?php echo get_template_directory_uri(); ?>/library/images/barbarian-group-logo.png" alt="The Barbarian Group" class="logo" />
+
+						<div class="social social-right">
+							<a href="#"><img src="<?php echo get_template_directory_uri(); ?>/library/images/i_phone.png" /></a>
+							<a href="#"><img src="<?php echo get_template_directory_uri(); ?>/library/images/i_email.png" /></a>
+						</div>				
+
 					</div>
-
-					<img src="<?php echo get_template_directory_uri(); ?>/library/images/barbarian-group-logo.png" alt="The Barbarian Group" />
-
-					<div class="social social-right">
-						<a href="#"><img src="<?php echo get_template_directory_uri(); ?>/library/images/i_phone.png" /></a>
-						<a href="#"><img src="<?php echo get_template_directory_uri(); ?>/library/images/i_email.png" /></a>
-					</div>				
-					
-					<nav role="navigation">
-						<?php bones_main_nav(); ?>
-					</nav>
 				
 				</div> <!-- end #inner-header -->
 			
+			
+				<nav role="navigation">
+					<?php bones_main_nav(); ?>
+				</nav>
+
 			</header> <!-- end header -->
