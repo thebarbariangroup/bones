@@ -40,12 +40,17 @@
 			
 				<div id="inner-header" class="wrap clearfix">
 					
-					<!-- to use a image just replace the bloginfo('name') with your img src and remove the surrounding <p> -->
-					<p id="logo" class="h1"><a href="<?php echo home_url(); ?>" rel="nofollow"><?php bloginfo('name'); ?></a></p>
-					
-					<!-- if you'd like to use the site description you can un-comment it below -->
-					<?php // bloginfo('description'); ?>
-					
+					<div class="social social-left">
+						<a href="#"><img src="<?php echo get_template_directory_uri(); ?>/library/images/i_twitter.png" /></a>
+						<a href="#"><img src="<?php echo get_template_directory_uri(); ?>/library/images/i_facebook.png" /></a>
+					</div>
+
+					<img src="<?php echo get_template_directory_uri(); ?>/library/images/barbarian-group-logo.png" alt="The Barbarian Group" />
+
+					<div class="social social-right">
+						<a href="#"><img src="<?php echo get_template_directory_uri(); ?>/library/images/i_phone.png" /></a>
+						<a href="#"><img src="<?php echo get_template_directory_uri(); ?>/library/images/i_email.png" /></a>
+					</div>				
 					
 					<nav role="navigation">
 						<?php bones_main_nav(); ?>
