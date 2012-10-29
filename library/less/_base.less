@@ -38,7 +38,46 @@ body {
 	font-family: $serif;
 	font-size: 100%;
 	line-height: 1.5;
-	color: #565656;
+	color: @black;
+	border-top: 3px solid @tbg-yellow;
+}
+
+.banner {
+	width: 960px;
+	margin: 0 auto;
+	text-align: center;
+	overflow: hidden;
+}
+
+.social {
+	position: relative;
+	float: left;
+	top: 15px;
+}
+
+.social a {
+	display: block;
+	background-color: #333;
+	border-radius: 15px;
+	width: 29px;
+	height: 29px;
+	text-align: center;
+	line-height: 29px;
+	float: left;
+	margin: 0 5px 0 0;
+}
+
+.social a img {
+	position: relative;
+	vertical-align: middle;
+}
+
+.social-left {
+	float: left;
+}
+
+.social-right {
+	float: right;
 }
 
 /********************
