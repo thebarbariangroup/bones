@@ -5,6 +5,9 @@ A Lightweight Wordpress Development Theme
 /******************************************************************
 Server Info:
 
+HOST:
+50.116.52.110
+
 SSH:
 deployer:4GQJHcAa
 
@@ -15,8 +18,7 @@ HTTPAUTH:
 staging:NcFVgNPy
 
 WORDPRESS:
-Barbarian
-tKKoCuxe
+Barbarian:tKKoCuxe
 
 
 _______________________________________________________________
