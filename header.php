@@ -60,7 +60,7 @@
 			
 			
 				<nav role="navigation">
-					<?php bones_main_nav(); ?>
+					<?php //bones_main_nav(); ?>
 				</nav>
 
 			</header> <!-- end header -->
